@@ -10,21 +10,21 @@ public class Main {
 
 		Categoryy category2 = new Categoryy();
 		category2.id = 20;
-		category2.categoryName = "Tümü";
+		category2.categoryName = "TÃ¼mÃ¼";
 
-		Course course1 = new Course(1, "Yazılım Geliştirici Yetiştirme Kampı(C# + ANGULAR)",
-				"2 ay sürecek ücretsiz ve profesyonel bir programla, sıfırdan yazılım geliştirme öğreniyoruz.",
+		Course course1 = new Course(1, "YazÄ±lÄ±m GeliÅŸtirici YetiÅŸtirme KampÄ±(C# + ANGULAR)",
+				"2 ay sÃ¼recek Ã¼cretsiz ve profesyonel bir programla, sÄ±fÄ±rdan yazÄ±lÄ±m geliÅŸtirme Ã¶ÄŸreniyoruz.",
 				"Engin Demirog"
 
 		);
 		Course course2 = new Course();
 		course2.courseNumber = 2;
-		course2.courseName = "Yazılım Geliştirici Yetiştirme Kampı(JAVA + REACT)";
-		course2.courseDetail = "2 ay sürecek ücretsiz ve profesyonel bir programla, sıfırdan yazılım geliştirme öğreniyoruz.";
+		course2.courseName = "YazÄ±lÄ±m GeliÅŸtirici YetiÅŸtirme KampÄ±(JAVA + REACT)";
+		course2.courseDetail = "2 ay sÃ¼recek Ã¼cretsiz ve profesyonel bir programla, sÄ±fÄ±rdan yazÄ±lÄ±m geliÅŸtirme Ã¶ÄŸreniyoruz.";
 		course2.instructor = "Engin Demirog";
 
-		Course course3 = new Course(3, "Programlamaya Giriş İçin Temel Kurs",
-				"PYTHON, JAVA, C# gibi tüm programlama dilleri için temel programlama mantığını anlaşılır örneklerle öğrenin.",
+		Course course3 = new Course(3, "Programlamaya GiriÅŸ iÃ§in Temel Kurs",
+				"PYTHON, JAVA, C# gibi tÃ¼m programlama dilleri iÃ§in temel programlama mantÄ±ÄŸÄ±nÄ± anlaÅŸÄ±lÄ±r Ã¶rneklerle Ã¶ÄŸrenin.",
 				"Engin Demirog"
 
 		);
@@ -32,7 +32,7 @@ public class Main {
 
 		for (Course course : courses) {
 
-			System.out.println("KURS : " + course.courseName + " / " + "EĞİTMEN : " + course.instructor);
+			System.out.println("KURS : " + course.courseName + " / " + "EÄÄ°TMEN : " + course.instructor);
 
 		}
 
