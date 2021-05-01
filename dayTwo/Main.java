@@ -23,7 +23,7 @@ public class Main {
 		course2.courseDetail = "2 ay sürecek ücretsiz ve profesyonel bir programla, sıfırdan yazılım geliştirme öğreniyoruz.";
 		course2.instructor = "Engin Demirog";
 
-		Course course3 = new Course(3, "Programlamaya Giriþ Ýçin Temel Kurs",
+		Course course3 = new Course(3, "Programlamaya Giriş için Temel Kurs",
 				"PYTHON, JAVA, C# gibi tüm programlama dilleri için temel programlama mantığını anlaşılır örneklerle öğrenin.",
 				"Engin Demirog"
 
