@@ -6,8 +6,8 @@ public class Main {
 
 		Student student1 = new Student();
 		student1.setId(1);
-		student1.setFirstName("Gülbahar");
-		student1.setLastName("Abazaoğlu");
+		student1.setFirstName("GÃ¼lbahar");
+		student1.setLastName("AbazaoÄŸlu");
 		student1.setUniversity("Hacettepe University");
 		student1.setDepartment("Mathematics");
 		student1.setEmail("gulbaharabazaoglu6@gmail.com");
@@ -21,7 +21,7 @@ public class Main {
 		studentManager.addMultiple(students);
 		studentManager.removeMultiple(students);
 
-		Instructor instructor1 = new Instructor(3, "Engin", "Demiroğ", "engindemirog@gmail.com", "dkcklsds",
+		Instructor instructor1 = new Instructor(3, "Engin", "DemiroÄŸ", "engindemirog@gmail.com", "dkcklsds",
 				"20 years");
 		InstructorManager instructorManager = new InstructorManager();
 		instructorManager.add(instructor1);
